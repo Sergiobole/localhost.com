@@ -1,0 +1,127 @@
+  /*  desktop += 900px with */
+
+
+/*  header */
+/*  body */
+body{
+    margin: 10;
+
+    text-align: center;
+
+    background-color: #333;
+
+    color: aliceblue;
+}
+/*  header */
+/*  menu principal  */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: skyblue;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+
+  /*  main */
+
+  main{
+    margin-top: 15px;
+    background-color: aliceblue;
+    width: 1000px;
+    height: 2000px;
+    margin-left: 250px;
+    border-style: ridge;
+    border-color: skyblue;
+  }
+
+  /*  div */
+  /*  div */
+  /*  div */
+  /*  div */
+
+  /*  mobile -= 900px with */
+
+  @media only screen and (max-width: 900px) {
+
+
+
+/*  header */
+/*  menu principal  */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: skyblue;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(153, 140, 140);
+}
+
+/*  body */
+body{
+  margin: 10;
+
+  text-align: center;
+
+  background-color: #333;
+
+  color: aliceblue;
+}
+
+/*  main */
+
+main{
+  margin-top: 15px;
+  background-color: aliceblue;
+  width: 500px;
+  height: 5000px;
+  margin-left: 100px;
+  border-style: ridge;
+  border-color: skyblue;
+}
+
+/*  terror*/
+.terror{
+color: #333;
+text-align: center;
+
+
+}
+/*  comedia */
+/*  suspense */
+/*  ação */
+/*  ficção */
+
+  }
