@@ -67,7 +67,9 @@ ul {
 
 ul {
   list-style-type: none;
+  width: 300px;
   margin: 0;
+  margin-left:200px ;
   padding: 0;
   overflow: hidden;
   background-color: skyblue;
@@ -81,12 +83,17 @@ li a {
   display: block;
   color: blue;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 12px;
   text-decoration: none;
 }
 
 li a:hover {
   background-color: rgb(153, 140, 140);
+}
+header{
+  text-align: center;
+  font-size:larger;
+  font-size: 30px;
 }
 
 /*  body */
@@ -112,8 +119,14 @@ main{
   border-color: skyblue;
 }
 
+#filmes{
+
+  text-align: center;
+
+}
 /*  terror*/
 .terror{
+
 color: #333;
 text-align: center;
 
